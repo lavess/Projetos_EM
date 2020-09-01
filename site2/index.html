@@ -12,7 +12,7 @@
   </head>
   <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">WorldMine <img src="imagens/logo.png" height="40px" width="40px"> </a>
+    <a class="navbar-brand" href="#">Site de Docinhos <img src="imagens/logo.png" height="40px" width="40px"> </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -36,28 +36,39 @@
     </div>
   </nav>
   <div class="container">
+    <form>
       <div class="row">
-          <div class="col-sm-12 col-md-4">
-              Primeiro
+        <div class="col-sm-12 col-md-6">
+
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" class="form-control" id="nome">
           </div>
-          <div class="col-sm-12 col-md-4">
-              Segundo
+          
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="embalagem">
+            <label for="embalagem">Embalado</label>
           </div>
-          <div class="col-sm-12 col-md-4">
-              Terceiro
-          </div>
-      </div>
-      <br>
-      <div class="row">
-        <div class="col-sm-12 col-md-4">
-            <h1><button type="button" class="btn btn-outline-success">Salvar</button> 
-              <button type="button" class="btn btn-outline-danger">Cancelar</button</h1>
+
         </div>
-        <div class="col-sm-12 col-md-4">
-            Segunda
+        <div class="col-sm-12 col-md-6">
+          <div class="form-group">
+            <label for="categoria">Categorias:</label>
+            <select class="form-control" id="categoria">
+              <option>brigadeiro</option>
+              <option>beijinho</option>
+              <option>trufa</option>
+              <option>nutella</option>
+            </select>
+          </div>
         </div>
+
       </div>
+
+    </form>
+
   </div>
+
   
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
