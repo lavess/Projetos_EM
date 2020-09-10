@@ -58,10 +58,16 @@
                 <option>brigadeiro</option>
                 <option>beijinho</option>
                 <option>trufa</option>
-                <option>nutella</option>
-                <option>morango</option>
-                <option>chocolate</option>
               </select>
+            </div>
+            <div class="form-group">
+                <label for="sabor">Sabor:</label>
+                <select class="form-control" id="sabor">
+                  <option>Chocolate</option>
+                  <option>Morango</option>
+                  <option>Nutella</option>
+                  <option>Beijinho</option>
+                </select>
             </div>
             <div class="row">
               <div class="col-md-6 col-sm-12">
@@ -72,17 +78,17 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-6">
+          <div class="form-group">
             <div class="form-group">
               <label for="valor">Valor:</label>
-              <input type="number" id="valor">
+              <input type="number" class="form-control" min="0" max="50" id="valor">
             </div>
             
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="form-group">
               <label for="quantidade">Quantidade:</label>
-              <input type="number" id="quantidade">
+              <input type="number" min="0" id="quantidade">
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
